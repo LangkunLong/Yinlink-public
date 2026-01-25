@@ -1,0 +1,39 @@
+{
+  "trunks": [
+    {
+      "name": "yinlink-inbound-trunk",
+      "comment": "Generic trunk for accepting incoming SIP calls to YinLink"
+    }
+  ],
+  "dispatch_rules": [
+    {
+      "name": "yinlink-dispatch-rule",
+      "comment": "Route all incoming calls to rooms with call- prefix",
+      "trunk_ids": [],
+      "rule": {
+        "dispatch_rule_direct": {
+          "room_name": "",
+          "pin": ""
+        },
+        "dispatch_rule_individual": {
+          "room_prefix": "call-",
+          "pin": ""
+        }
+      },
+      "hide_phone_number": false,
+      "inbound_numbers": [],
+      "metadata": "{\"service\": \"yinlink\", \"type\": \"translation\"}"
+    }
+  ],
+  "outbound_trunks": [
+    {
+      "name": "yinlink-outbound-trunk",
+      "comment": "Trunk for outbound dialing to third parties",
+      "address": "",
+      "transport": "udp",
+      "numbers": [],
+      "auth_username": "",
+      "auth_password": ""
+    }
+  ]
+}

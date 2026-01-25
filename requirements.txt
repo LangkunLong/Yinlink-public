@@ -1,0 +1,18 @@
+# YinLink - LiveKit Voice AI Dependencies
+# =========================================
+
+# LiveKit Agents Framework
+livekit-agents>=1.3.11
+
+# Plugins (Syncing versions is recommended)
+livekit-plugins-openai>=1.3.11
+livekit-plugins-silero>=1.3.11
+
+# LiveKit Server SDK (for SIP/Room operations)
+livekit-api>=1.1.0
+
+# Environment management
+python-dotenv>=1.0.1
+
+# Optional: Gladia STT
+# livekit-plugins-gladia>=1.3.11

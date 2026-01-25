@@ -1,0 +1,9 @@
+ngrok.exe
+__pycache__
+venv
+.env*
+.next
+next-env.d.ts
+node_modules
+Dockerfile
+livekit.toml
