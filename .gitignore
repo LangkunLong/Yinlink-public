@@ -7,3 +7,4 @@ next-env.d.ts
 node_modules
 Dockerfile
 livekit.toml
+diagram*
