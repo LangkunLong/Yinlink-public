@@ -2,6 +2,9 @@
 
 Real-time bi-directional English ↔ Mandarin translation system powered by LiveKit and OpenAI.
 
+# Demo:
+https://youtu.be/rrmuFgn6Lgk
+
 ## Overview
 
 YinLink is a voice AI translation system that acts as an invisible translator between English and Mandarin speakers. The agent follows the "Ghost Protocol" - functioning as a transparent logic layer with zero personality, translating speech in real-time without adding commentary or responding to commands.
@@ -154,4 +157,3 @@ Open http://localhost:3000 on your mobile device.
 ## License
 
 MIT
-# Yinlink-public
