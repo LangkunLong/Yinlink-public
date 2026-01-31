@@ -154,6 +154,9 @@ Open http://localhost:3000 on your mobile device.
 - **Next.js**: Frontend framework
 - **Tailwind CSS**: Styling
 
+Feel free to learn more about our project here:    
+https://devpost.com/software/yinlink?ref_content=user-portfolio&ref_feature=in_progress
+
 ## License
 
 MIT
